@@ -37,10 +37,10 @@ io.on('connection', function(socket) {
 });
 
 var T = new Twit({
-  consumer_key:         'U2Wnh2coL9LS3awsYnoBJPFOh',
-  consumer_secret:      'KtM4mlyaurWqQ4dGg7Y9FljBnYx6CVunB1Eh4CTNwBeXtgBaCE',
-  access_token:         '1305158136-YTzPRb1n2fAQsa45ETd0EBhkv2HFcQCrHhQkhI2',
-  access_token_secret:  'URTRhAPx1FPAvLIiETFNoEQpznQAQHE0FYkOWmiUpTHm9',
+  consumer_key:         '',
+  consumer_secret:      '',
+  access_token:         '',
+  access_token_secret:  '',
   timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
 });
 
