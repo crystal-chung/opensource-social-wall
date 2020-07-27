@@ -29,7 +29,7 @@ io.on('connection', function(socket) {
         io.emit('allTweet',tweetArray)
     })
 
-    var stream = T.stream('statuses/filter', { track: '#coding', language: 'en' })
+    var stream = T.stream('statuses/filter', { track: '#gracehopper', language: 'en' })
 
     stream.on('tweet', function (tweet) {
         io.emit('tweet',{ 'tweet': tweet });
